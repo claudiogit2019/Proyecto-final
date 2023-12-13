@@ -88,3 +88,49 @@ Mantener al menos el 90% de los negocios abiertos.
 <p align='center'>
 <img src="assets\diagramaGantt.jpeg"  height=300>
 <p>
+	
+### **Stack Tecnológico:**
+- *Limpieza y Transformación de Datos:
+Entorno de Desarrollo:
+Google Colab (Python 3.0)
+Lenguaje de Programación:
+Python 3.0
+Bibliotecas Python:
+Pandas
+NumPy
+scikit-learn.*
+
+  *Entorno Interactivo:
+Jupyter Notebooks.*
+- *Almacenamiento de Datos:
+Almacenamiento en la Nube:
+Google Cloud Storage.*
+ *Bases de Datos:
+  BigQuery (Google).*
+
+- *Análisis Exploratorio de Datos (EDA):
+Librerías de Visualización:
+Matplotlib y Seaborn (Python).*
+
+   *Herramientas de BI:
+Power BI (Microsoft)
+Google - Looker Studio.*
+
+- *Versionado de Código y Repositorio:
+Plataforma de Versionado de Código:
+GitHub.*
+
+- *Metodología de Trabajo:
+Gestión de Proyectos:
+Trello.*
+
+- *Documentación:
+Documentación Técnica y Presentaciones:
+Markdown y Jupyter Notebooks.*
+
+  *Documentación Formal:
+Google Docs
+Microsoft Word.*
+
+  *README del Repositorio:
+README de GitHub.*
