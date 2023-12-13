@@ -10,6 +10,9 @@
 
 ¡Bienvendios a la explarción de los datos de Yelp y Google Maps para desarrollar un sistema de recomendación;
 	Descubre nuestro análisis detallado, objetivos y avances en este repositorio colaborativo!
+<p align='center'>
+<img src="assets\imgGY.jpg"  height=300>
+<p>
 
 ## PROYECTO FINAL: DEMO 1 
 
@@ -80,3 +83,8 @@ DF_business:
 
 Mantener una calificación promedio de al menos 4 estrellas.
 Mantener al menos el 90% de los negocios abiertos.
+
+### **Diagrama de Gantt**
+<p align='center'>
+<img src="assets\diagramaGantt.jpeg"  height=300>
+<p>
