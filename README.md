@@ -48,7 +48,7 @@ Desarrollar un sistema de recomendación basado en las preferencias y experienci
 - *Integración con sistemas de gestión empresarial (ERP) para un análisis más amplio.*
 
 
-### **Posible Enfoque:**
+### **Enfoque:**
 
 - *Desarrollar un sistema de recomendación para los usuarios basado en sus experiencias pasadas y preferencias.*
 - *Optimizar la experiencia del usuario al proporcionar recomendaciones personalizadas y relevantes.*
