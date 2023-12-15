@@ -27,9 +27,6 @@ La propuesta incluirá el uso de técnicas de Procesamiento de Lenguaje Natural 
 
 ### **Objetivos:**
 
-- *Desarrollar un Sistema de Análisis de Sentimientos:
-Utilizar técnicas de NLP para comprender las emociones expresadas en las reseñas de usuarios en Yelp y Google Maps.*
-
 - *Predecir Tendencias en Rubros de Negocios:
 Implementar modelos de machine learning para predecir cuáles serán los rubros de negocios que más crecen o decaen.*
 
