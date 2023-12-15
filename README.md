@@ -56,31 +56,34 @@ Desarrollar un sistema de recomendación basado en las preferencias y experienci
 - *Desarrollar un sistema de recomendación que utilice los resultados del análisis de sentimientos y los modelos de machine learning para proporcionar sugerencias personalizadas.*
 
 `KPIs`
-### _**Primer KPI**_
-DF_USER:
-- *Aumentar el promedio de reseñas escritas por usuario en un 15% en el primer trimestre.*
-Aumentar la participación promedio de votos en un 10%.
+### _**Métrica: Índice de Satisfacción al Cliente.**_
+Mide la proporción de reseñas positivas en comparación con el total de reseñas mensuales.
+- *KPI: Un objetivo del incremento de un 7% del índice de satisfacción al cliente del mes actual respecto del mes anterior.
+  Nos indicaría el esfuerzo continuo por mejorar la satisfacción del cliente de Yelp.*
 
-### _**Segundo KPI**_
-DF_TIP:
+### _**Metrica: Índice de Sentimiento Positivo.**_
+Refleja el promedio de calificaciones en estrellas de negocios en Yelp anualmente:
 
-Aumentar el promedio de comentarios por tip en un 8%.
-Porcentaje de tips con Complementos:
-Porcentaje de tips que recibieron al menos un cumplido.
-(Número de tips con compliment_count > 0 / Total de tips) * 100
-Mantener el porcentaje por encima del 25%.
-### _**Tercer KPI**_
-DF_Checkin:
+- *KPI: Conseguir un índice de sentimiento positivo superior al 3.5 del año actual respecto del año anterior. 
+  Esto sugiere que el negocio ha conseguido una estabilidad con un buen promedio de calificaciones.*
+  
+### _**Métrica: Total de reviews.**_
+Mide la cantidad de reviews anuales:
 
-Aumentar la frecuencia mensual de check-ins en un 5%.
-Identificar y destacar los 10 principales negocios con frecuencia de check-ins.
+- *KPI: Un objetivo del incremento de un 10% del total de reviews del año actual respecto del año anterior. 
+  Significaría una mayor popularidad sobre los sitios del análisis.*
 
-### _**Cuarto KPI**_
-DF_business:
+### _**Métrica: Índice de Sentimiento Positivo.**_
+Mide la cantidad de negocios/franquicias por año:
 
-Mantener una calificación promedio de al menos 4 estrellas.
-Mantener al menos el 90% de los negocios abiertos.
+- *KPI: Conseguir un incremento del 3% de la cantidad de negocios por Estado, del año actual respecto al año anterior. 
+  Esto nos indicaría una mayor presencia de nuestras franquicias en el mercado.*
 
+### _**Métrica: Calificación promedio.**_
+Calificación promedio de las reviews por semestre:
+
+- *KPI: Mejorar en un 5% la calificación promedio de los negocios de comida por Estado, del semestre actual respecto al semestre anterior*
+  
 ### **Diagrama de Gantt**
 <p align='center'>
 <img src="assets\diagramaGantt.jpeg"  height=300>
