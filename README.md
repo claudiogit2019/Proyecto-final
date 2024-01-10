@@ -27,14 +27,9 @@ La propuesta incluirá el uso de técnicas de Procesamiento de Lenguaje Natural 
 
 ### **Objetivos:**
 
-- *Predecir Tendencias en Rubros de Negocios:
-Implementar modelos de machine learning para predecir cuáles serán los rubros de negocios que más crecen o decaen.*
+- *Realizaremos predicciones con el modelo machine learning para la apertura de nuevos locales en ubicaciones estrategicas, asegurando asi un crecimiento efectivo y sostenible del negocio.*
 
-- *Identificar Ubicaciones Óptimas para Nuevos Locales:
-Utilizar datos de reseñas para determinar las ubicaciones geográficas más estratégicas para la apertura de nuevos locales.*
-
-- *Implementar un Sistema de Recomendación:
-Desarrollar un sistema de recomendación basado en las preferencias y experiencias previas de los usuarios en ambas plataformas.*
+- *Implementaremos un modelo de machine learning para impulsar la visibilidad y afluencia en sus locales. Este sistema generará recomendaciones personalizadas, beneficiando a los propietarios al aumentar la clientela y los ingresos.*
 
 ### **Alcance:**
 
