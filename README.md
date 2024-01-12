@@ -129,3 +129,36 @@ Microsoft Word.*
 
   *README del Repositorio:
 README de GitHub.*
+
+### **MVP: OptiLocation**
+`Objetivo del Producto:`  *Proporcionar una evaluación rápida de la viabilidad de abrir un restaurante en una ubicación específica utilizando datos estadísticos y características relevantes.*
+
+`Características del MVP:`
+
+*a. Entrada de Datos:*
+- *Interfaz simple para que el usuario ingrese detalles sobre la ubicación, como código postal, tipo de vecindario, densidad de población, ingresos promedio, competencia cercana, etc.*
+  
+*b. Integración de Datos:*
+- *Conectar con fuentes de datos públicas para obtener estadísticas demográficas, información sobre competidores locales, tasas de crecimiento poblacional, etc.*
+
+*c. Modelo de Machine Learning:*
+- *Implementar un modelo de machine learning simple que analice los datos de entrada y proporcione una puntuación de viabilidad para abrir un restaurante en esa ubicación.*
+  
+*d. Resultado:*
+- *Mostrar una puntuación de viabilidad junto con un resumen de los factores clave que contribuyen a la decisión.*
+  
+*e. Retroalimentación del Usuario:*
+- *Solicitar retroalimentación del usuario sobre la precisión de la evaluación y posibles características adicionales que podrían ser útiles.*
+  
+`Interfaz de Usuario:` *Una interfaz web simple que permita a los usuarios ingresar la información y visualizar los resultados.*
+
+`Tecnologías Utilizadas:
+Frontend: HTML, CSS, JavaScript (React o similar).
+Backend: Flask (u otro marco ligero de Python).
+Base de Datos: Puede comenzar con almacenamiento en memoria o una base de datos ligera si es necesario.`
+
+`Desarrollo Iterativo:` *Lanzar una versión inicial con características mínimas y recopilar comentarios de los usuarios para futuras mejoras.*
+
+`Implementación del Modelo de Machine Learning:`
+*Utilizar un modelo simple, como regresión logística, que considere factores clave para la viabilidad de un restaurante.
+Este MVP proporciona una manera rápida y sencilla para que los emprendedores evalúen la viabilidad de abrir un restaurante en una ubicación específica. A medida que obtienes comentarios y validas la utilidad de la herramienta, puedes iterar y mejorar el producto.*
