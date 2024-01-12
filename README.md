@@ -152,11 +152,6 @@ README de GitHub.*
   
 `Interfaz de Usuario:` *Una interfaz web simple que permita a los usuarios ingresar la información y visualizar los resultados.*
 
-`Tecnologías Utilizadas:
-Frontend: HTML, CSS, JavaScript (React o similar).
-Backend: Flask (u otro marco ligero de Python).
-Base de Datos: Puede comenzar con almacenamiento en memoria o una base de datos ligera si es necesario.`
-
 `Desarrollo Iterativo:` *Lanzar una versión inicial con características mínimas y recopilar comentarios de los usuarios para futuras mejoras.*
 
 `Implementación del Modelo de Machine Learning:`
