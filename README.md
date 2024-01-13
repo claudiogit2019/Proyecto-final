@@ -157,3 +157,7 @@ README de GitHub.*
 `Implementación del Modelo de Machine Learning:`
 *Utilizar un modelo simple, como regresión logística, que considere factores clave para la viabilidad de un restaurante.
 Este MVP proporciona una manera rápida y sencilla para que los emprendedores evalúen la viabilidad de abrir un restaurante en una ubicación específica. A medida que obtienes comentarios y validas la utilidad de la herramienta, puedes iterar y mejorar el producto.*
+
+### **Link del video de la carga incremental:**
+
+https://youtu.be/bP3isNH58Jo
