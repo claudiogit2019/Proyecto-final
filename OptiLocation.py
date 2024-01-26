@@ -5,7 +5,7 @@ import streamlit as st
 # from sklearn.metrics.pairwise import cosine_similarity
 # from sklearn.metrics.pairwise import euclidean_distances
 # import plotly.express as px
-import plotly.graph_objects as go
+#import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
 import json
 #import requests
