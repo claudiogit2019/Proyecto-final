@@ -1,5 +1,5 @@
 markdownify
 streamlit
 streamlit_lottie
-streamlit_option_menu
+streamlit_option_menu==0.3.2
 pyarrow
