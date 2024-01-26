@@ -281,13 +281,13 @@ if selected=='Acerca de':
     with st.container():
         col1,col2,col3=st.columns(3)
         col1.write(':blue[Dataset de Google Maps]')
-        col2.write('(                             )')
+        col2.write('(En este data set se ecuentran los datos con los cuales se fueron trabajando)')
         col3.write('https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA?usp=share_link')
     
     with st.container():
         col1,col2,col3=st.columns(3)
         col1.write(':blue[Dataset de Yelp!]')
-        col2.write('(                             )')
+        col2.write('(En este data set se ecuentran los datos con los cuales se fueron trabajando)')
         col3.write('https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing')
 
     st.divider()
@@ -301,7 +301,7 @@ if selected=='Acerca de':
         col1.write('**Nombre:**    Mauricio David Figueroa')
         col1.write('**Especialidad:**    Machine Learning')
         col1.write('**Contacto:**   [GitHub](https://github.com/maurifigueroa) or [linkedin](https://www.linkedin.com/in/mfigueroa15)')
-        col1.image('webOptiLocation\fotografias\Mauricio.png')
+        col1.image('webOptiLocation/fotografias/Mauricio.png')
         col2.write('')
         col2.write('')
         col2.write('')
