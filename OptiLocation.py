@@ -140,7 +140,7 @@ if selected=="Introducción":
 # PREDICCION
 if selected=="Predicción":
 
-    st.subheader('Seleccionar Ubucación')
+    st.subheader('Seleccionar Ubicación')
 
     # REALIZA LA NORMALIZACION Y LIMPIEZA DE LOS DATAFRAMES
     States = obtener_states(client)
@@ -170,11 +170,6 @@ if selected=="Predicción":
     selected_categories = st.multiselect('Selecciona Categorias', options = ['Categorias'] + list(Categorias_options.keys()), default=['Categorias'])
     st.caption('Nota: Se puede elegir varias categorias')
 
-
-    with st.expander('Ajustes Avanzados'):
-
-        st.subheader('Filtrar Resultados')
-        count_select = st.number_input(label='¿Cuántas ubicaciones similares regresaron? (1-3)', min_value=1, max_value=3, value=1, step=1)
 
     def estandarizar(df_avg_stddev, Rating_select, Densidad_Sitios_select):
         if Densidad_Sitios_select == 1:
