@@ -1,21 +1,9 @@
 import streamlit as st
-# import pandas as pd
-# from urllib.request import urlopen
-# from sklearn.preprocessing import StandardScaler
-# from sklearn.metrics.pairwise import cosine_similarity
-# from sklearn.metrics.pairwise import euclidean_distances
-# import plotly.express as px
-#import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
 import json
-#import requests
 from streamlit_lottie import st_lottie
-#import pydeck as pdk
-#import snowflake.connector
 from google.cloud import bigquery
 from google.oauth2 import service_account
-
-
 #DISPOSICION
 st.set_page_config(
     page_title="OptiLocation",
@@ -149,17 +137,6 @@ if selected=="Introducción":
     st.video(video_bytes)
     
 
-
-
-
-
-
-
-
-
-
-
-
 # PREDICCION
 if selected=="Predicción":
 
@@ -291,106 +268,7 @@ if selected=="Predicción":
     # Obtener ubicacion del cluster recomendado
     Ubicacion = ubicacion_recomendacion(cliente_bq, num_cluster)
 
-    st.write('Categorías seleccionadas:', Ubicacion)
-
-
-
-
-
-
-
-
-    # #Benchmark
-    # if loc_select=='City':
-    #     if city_select !='City':
-    #         selected_record = master_city[master_city['CITYSTATE']==city_select].reset_index()
-    #         selected_city=selected_record['CITYSTATE'][0]
-            
-            
-
-    #         # Create a new dataframe with the similarity scores and the corresponding index of each record
-    #         df_similarity = pd.DataFrame({'index': filt_master_city.index})
-
-
-    #         # Merge the original dataframe with the similarity dataframe to display the top 10 most similar records
-    #         df_top10 = pd.merge(df_similarity, filt_master_city, left_on='index', right_index=True).reset_index(drop=True)
-    #         df_top10=df_top10.loc[1:count_select]
-    #         df_top10['Rank']=list(range(1,count_select+1))
-    #         df_top10['Ranking']=df_top10['Rank'].astype(str)+'- '+df_top10['CITYSTATE']
-    #         df_top10['LAT_R']=selected_record['LAT'][0]
-    #         df_top10['LON_R']=selected_record['LON'][0]
-    #         df_top10['SAVE']=False
-    #         df_top10['NOTES']=''
-
-    #         st.header('Top '+'{}'.format(count_select)+' Ubicaciones más similares')
-    #         #st.write('You selected zip code '+zip_select+' from '+selected_record['County Title'][0])
-    #         # CSS to inject contained in a string
-    #         hide_table_row_index = """
-    #             <style>
-    #             thead tr th:first-child {display:none}
-    #             tbody th {display:none}
-    #             </style>
-    #             """
-
-    #         # Inject CSS with Markdown
-    #         st.markdown(hide_table_row_index, unsafe_allow_html=True)
-    #         tab1,tab2=st.tabs(['Map','Data'])
-    #         with tab2:
-    #             with st.expander('Expandir para obtener información de la tabla'):
-    #                 st.markdown(
-    #                 """
-    #                 - Guarde su investigación marcando las ubicaciones en la columna GUARDAR que se agregará al csv para descargar.
-    #                 """
-    #                 )
-    #             @st.cache_data
-    #             def convert_df(df):
-    #                 return df.to_csv().encode('utf-8')
-    #             cols=['Rank','CITYSTATE']
-    #             df=df_top10[cols+['SAVE','NOTES']]
-    #             df=df.set_index('Rank')
-    #             edited_df=st.experimental_data_editor(df)
-    #             save=edited_df[edited_df['SAVE']==True]
-    #             save=save.reset_index()
-    #             csv = convert_df(save[cols+['SAVE','NOTES']])
-    #             st.download_button(label="Descargar selecciones como CSV",data=csv,file_name='OptiLocation_SAVED.csv',mime='text/csv',)
-    #         with tab1:
-    #             latcenter=df_top10['LAT'].mean()
-    #             loncenter=df_top10['LON'].mean()
-    #             #map token for additional map layers
-    #             token = "pk.eyJ1Ijoia3NvZGVyaG9sbTIyIiwiYSI6ImNsZjI2djJkOTBmazU0NHBqdzBvdjR2dzYifQ.9GkSN9FUYa86xldpQvCvxA" # you will need your own token
-    #             #mapbox://styles/mapbox/streets-v12
-    #             fig1 = px.scatter_mapbox(df_top10, lat='LAT',lon='LON',center=go.layout.mapbox.Center(lat=latcenter,lon=loncenter),
-    #                                  color="Rank", color_continuous_scale=px.colors.sequential.ice, hover_name='CITYSTATE', hover_data=['Rank'],zoom=3,)
-    #             fig1.update_traces(marker={'size': 15})
-    #             fig1.update_layout(mapbox_style="mapbox://styles/mapbox/satellite-streets-v12",
-    #                            mapbox_accesstoken=token)
-    #             fig1.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-    #             st.plotly_chart(fig1,use_container_width=True)
-
-    #         st.divider()
-
-    #         st.header('Prediccion de Ubicacion')
-    #         rank_select=st.selectbox('Seleccion de las clasificaciones anteriores',list(df_top10['Ranking']))
-    #         if rank_select:
-    #             compare_record=df_top10[df_top10['Ranking']==rank_select].reset_index(drop=True)
-    #             compare_city=compare_record['CITYSTATE'][0]
-    #             #compare_county=compare_record['County Title'][0]
-    #             compare_state=compare_record['STATE_SHORT'][0].lower()
-                   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    st.write('Prediccion:', Ubicacion)
 
 #About Page
 if selected=='Acerca de':
@@ -422,7 +300,7 @@ if selected=='Acerca de':
         col1.write('')
         col1.write('**Nombre:**    Mauricio David Figueroa')
         col1.write('**Especialidad:**    Machine Learning')
-        col1.write('**Contacto:**   [GitHub](https://www.linkedin.com/in/kevin-soderholm-67788829/) or [linkedin](https://www.linkedin.com/in/kevin-soderholm-67788829/)')
+        col1.write('**Contacto:**   [GitHub](https://github.com/maurifigueroa) or [linkedin](https://www.linkedin.com/in/mfigueroa15)')
         col1.image('webOptiLocation/fotografias/Jhon.png')
         col2.write('')
         col2.write('')
