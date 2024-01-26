@@ -301,7 +301,7 @@ if selected=='Acerca de':
         col1.write('**Nombre:**    Mauricio David Figueroa')
         col1.write('**Especialidad:**    Machine Learning')
         col1.write('**Contacto:**   [GitHub](https://github.com/maurifigueroa) or [linkedin](https://www.linkedin.com/in/mfigueroa15)')
-        col1.image('webOptiLocation/fotografias/Jhon.png')
+        col1.image('webOptiLocation\fotografias\Mauricio.png')
         col2.write('')
         col2.write('')
         col2.write('')
