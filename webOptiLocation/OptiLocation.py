@@ -64,7 +64,7 @@ def pull_cleann():
 with st.sidebar:
     selected = option_menu('OptiLocation', ["Introducción", 'Predicción','Acerca de'], 
         icons=['play-btn','search','info-circle'],menu_icon='intersect', default_index=0)
-    lottie = load_lottiefile("OptiLocation\similo3.json")
+    lottie = load_lottiefile("webOptiLocation\similo3.json")
     st_lottie(lottie,key='loc')
 
 #PAGINA DE INTRODUCCION
@@ -89,14 +89,14 @@ if selected=="Introducción":
                 """
                 )
         with col2:
-            lottie2 = load_lottiefile("OptiLocation\place2.json")
+            lottie2 = load_lottiefile("webOptiLocation\place2.json")
             st_lottie(lottie2,key='place',height=300,width=300)
 
     st.divider()
 
     #VIDEO TUTORIAL
     st.header('Tutorial del uso')
-    video_file = open('OptiLocation\Similo_Tutorial3_compressed.mp4', 'rb')  # GRABAR UN VIDEO Y CAMBIARLO 
+    video_file = open('webOptiLocation\Similo_Tutorial3_compressed.mp4', 'rb')  # GRABAR UN VIDEO Y CAMBIARLO 
     video_bytes = video_file.read()
     st.video(video_bytes)
     
@@ -283,27 +283,27 @@ if selected=='Acerca de':
         col1.write('**Nombre:**    Mauricio David Figueroa')
         col1.write('**Especialidad:**    Machine Learning')
         col1.write('**Contacto:**   [GitHub](https://www.linkedin.com/in/kevin-soderholm-67788829/) or [linkedin](https://www.linkedin.com/in/kevin-soderholm-67788829/)')
-        col1.image('OptiLocation\fotografias\Claudio.png')
+        col1.image('webOptiLocation\fotografias\Claudio.png')
         col2.write('')
         col2.write('')
         col2.write('')
         col2.write('**Nombre:**    Antonio Claudio Ortiz')
         col2.write('**Especialidad:**    Machine Learning')
         col2.write('**Contacto:**   [GitHub](https://github.com/claudiogit2019?tab=repositories) or [linkedin](https://www.linkedin.com/in/antonio-claudio-ortiz-b4a6a41ba/)')
-        col2.image('OptiLocation\fotografias\Claudio.png')
+        col2.image('webOptiLocation\fotografias\Claudio.png')
         col3.write('')
         col3.write('')
         col3.write('')
         col3.write('**Nombre:**    Camila Ledesma')
         col3.write('**Especialidad:**     Data Analyst')
-        col3.write('**Contacto:**   [GitHub](https://www.linkedin.com/in/kevin-soderholm-67788829/) or [linkedin](https://www.linkedin.com/in/kevin-soderholm-67788829/)')
-        col3.image('OptiLocation\fotografias\Claudio.png')
+        col3.write('**Contacto:**   [GitHub](https://github.com/camiledesma) or [linkedin](https://www.linkedin.com/in/camila-ledesma-966bba1b1/)')
+        col3.image('webOptiLocation\fotografias\Camila.png')
         col4.write('')
         col4.write('')
         col4.write('')
         col4.write('**Nombre:**    Jeferson Albornoz Peña')
         col4.write('**Especialidad:**    Data Analyst')
-        col4.write('**Contacto:**    [GitHub](https://https://github.com/Eljeferson) or [linkedin](https://www.linkedin.com/in/jeferson-albornoz-peña-5018831bb)')
+        col4.write('**Contacto:**    [GitHub](//https://github.com/Eljeferson) or [linkedin](https://www.linkedin.com/in/jeferson-albornoz-peña-5018831bb)')
         col4.image('OptiLocation\fotografias\Claudio.png')
         col5.write('')
         col5.write('')
@@ -311,11 +311,11 @@ if selected=='Acerca de':
         col5.write('**Nombre:**    Jhon Ever Gallego')
         col5.write('**Especialidad:**    Data Engineer')
         col5.write('**Contacto:**   [GitHub](https://github.com/jhonevergallegoate) or [linkedin](https://www.linkedin.com/in/jhonevergallegoate/)')
-        col5.image('OptiLocation\fotografias\Jhon.png')
+        col5.image('webOptiLocation\fotografias\Jhon.png')
         col6.write('')
         col6.write('')
         col6.write('')
         col6.write('**Nombre:**    Maria Andrea Soria')
         col6.write('**Especialidad:**    Data Analyst')
         col6.write('**Contacto:**   [GitHub](https://github.com/andreasoria2022) or [linkedin](https://www.linkedin.com/in/andrea-soria-86200b2b1/)')
-        col6.image('OptiLocation\fotografias\Andrea.png')
+        col6.image('webOptiLocation\fotografias\Andrea.png')
