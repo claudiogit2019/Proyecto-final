@@ -1,17 +1,17 @@
 import streamlit as st
-import pandas as pd
-from urllib.request import urlopen
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.metrics.pairwise import euclidean_distances
-import plotly.express as px
+# import pandas as pd
+# from urllib.request import urlopen
+# from sklearn.preprocessing import StandardScaler
+# from sklearn.metrics.pairwise import cosine_similarity
+# from sklearn.metrics.pairwise import euclidean_distances
+# import plotly.express as px
 import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
 import json
-import requests
+#import requests
 from streamlit_lottie import st_lottie
-import pydeck as pdk
-import snowflake.connector
+#import pydeck as pdk
+#import snowflake.connector
 from google.cloud import bigquery
 from google.oauth2 import service_account
 
