@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "starlit-woods-407516",
+  "private_key_id": "5b54cca764547a6752621f0b20f9cd026d774230",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6Cev9OWMFBXDa\nh14iWsRelYy558AJS/My7ZrTwpmjhjwLHeRQP/mimkf5kde2M73wc8HnmUJtU4dV\nhPzPUGhE2Y8vuwos0MrEm7kn21Fn63VT48OTArjvJyrSx4rlr19Dg2Igvfji9BHw\nHRMnmUOpCIDtes4zg11lO5IK2p2jZoJOEm5bkWhxWZGsLVVjA060xzDUVJeUeLSF\nzr7rQSm6WkP65fA6Q7idHUT5IxcyMyKtfd3TLgwGSS0Nimxz/BEeDIIdeXzTTwjw\nneQMFiGIMaWoioE9OuxbYnNATF+fO3xZHFc+vzC5csypZv+NEL5snjrIL1TwVyJY\nwkXScZI7AgMBAAECggEALjq380l24zEKbatUx4mxoWVdPncp38WJTh8AKd4CKsH5\nGrQXX5++K1tWRlyo82RhLya8yQ3rFVq71xMAdY3gEzfS3oQGj8Nkl72woYhc7sty\ncOG44Ee9Z+RePlmKmO/e5tp3oHZEqjUHXhkDgQQTbaYoz5qEMgXTSAwpCtxvbsJl\nCs7oDj+ztPAJ+/H4tTl61i9gmWZuMwH/bnXrm3InTArGlO+VRwxVePhXX7JClHne\nwuqYOQvdscLtQUMt8X2Oyd9kZcEEOzY5p+1Y09S6CvMvczQF30jsBlE3Bu9+4n+J\nQihYQWYqNImg+C50poAOclfVwM6/psOsztuFi35wRQKBgQD/0Hq2VHDyyeASC9wH\n3zH6bCAjgbbea91IUPR3s8/Fbx/ulw63pHqH0/mq45ZJn0Z0m0JRDWsKDHu536Kl\nT9jar8yEVaEl18Nyxiktacyg5+eMFASauE2vdHpAIQUBqpJM1Jxl2hqTXx+PmeWK\nAkxrGt2Of9X2f1YWe8oLSxzCFQKBgQC6LHsWgepopOSKr2ax02sWrzAA9nvOj8ty\nXH3gvEDAdkxUl8R6404NLyFRMTbYLErsKqe2r7S1ANPG2ezKB+fBzwo79vc0i6GE\ncpOzTnRC8KTbqayPuBrT1DyBf00Pb9cVIRyQyv51NbuVoJMHQTRH1nvT8NCkLEX1\noqEe2q0nDwKBgQCDBCZlDXhPkH73HyXQzkoNhKUtKjkbT0kkyXl7eRc3egNzsd/y\nxAWRXUpocGk/SZjPDdl4I5QnsF8JwnTNj8hzsEfhmu2OsSPDu6PJQ39vBXa8cmAt\nUalP7CrUf1TOFqsZOGblbz/fLH/Aj0RVW3oB/N9uJSDTP0I6/6lqAU04RQKBgFDu\nyUuNiqOXGysW+SPQ7rrbyZiBjmzLofvDLY2nCNciFiioGWf6rJGarXcoV9k92Aw2\nttX6KCqPg4Dsd72UFjHwmVhcEjcrhDmZvY+zSWNYTbKYXkXUGQWBPBRnjM5rJisv\nS8W+GURG6ZcwSPpcZCfem9IU2/6iqH8SBczt71wNAoGANydIKjGqSEDGenRxgdtm\n0PHzF5gdBKEcamO1QTp5vuegNku8kU9UYoeL9kk+kCHhmZvqfC3UDkimiTzhylsb\nrFn91t+tM6lzXZwfppnzkaEk82UkSQjxZX95BUUNMmGycHqYTFgPEooosjvXh8VA\nSwtyG8fDEVvPbWu8Og9QegU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "datawarehouse@starlit-woods-407516.iam.gserviceaccount.com",
+  "client_id": "110514091557820444610",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/datawarehouse%40starlit-woods-407516.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
