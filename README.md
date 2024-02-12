@@ -161,3 +161,7 @@ Este MVP proporciona una manera rápida y sencilla para que los emprendedores ev
 ### **Link del video de la carga incremental:**
 
 https://youtu.be/bP3isNH58Jo
+
+### **Link del video Presentacion del Prototipo:**
+
+https://www.youtube.com/watch?v=20UUY7rEC04
